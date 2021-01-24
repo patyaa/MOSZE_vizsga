@@ -2,8 +2,6 @@ OBJS := main.o Warrior.o
 CC := g++
 CFLAGS := -Wall -std=c++17
 
-
-
 run_cpps: $(OBJS)
 	$(CC) $(CFLAGS) -o a.out $(OBJS)
 
