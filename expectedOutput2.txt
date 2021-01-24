@@ -1,0 +1,5 @@
+Rick(100), DMG=10 /Patrik(20), DMG=10
+Rick(100), DMG=10 /Patrik(10), DMG=10
+Rick(90), DMG=10 /Patrik(10), DMG=10
+Rick(90), DMG=10 /Patrik(0), DMG=10
+Winner: Rick
