@@ -11,6 +11,9 @@ Warrior.o: Warrior.cpp Warrior.h
 main.o: main.cpp Warrior.h 
 	$(CC) $(CFLAGS) -c main.cpp
 
+clean:
+	rm -rf *.o *.out
+
 Install_Valgrind_and_Cppcheck:
 	sudo apt-get install -y valgrind cppcheck
 
