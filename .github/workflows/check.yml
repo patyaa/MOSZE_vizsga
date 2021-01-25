@@ -1,0 +1,20 @@
+name: Check
+
+on:
+  push
+
+jobs:
+  checking:
+    runs-on: ubuntu-latest
+    container: kkira07/test:latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Warnings 
+        run: make Warnings
+      - name: Report generation
+        run: make Report_generation
+      - uses: actions/upload-artifact@v2
+        with:
+          path: ./report.txt
+      - name: Build
+        run: make run_cpps

@@ -31,3 +31,6 @@ Install_graphviz:
 
 Creating_documentation:
 	doxygen doxconf
+
+Report_generation:
+	cppcheck *.cpp --enable=performance --enable=style --output-file=report.txt
