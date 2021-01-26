@@ -1,8 +1,8 @@
 # Tagok
 
-| Név | Github azonosito  | Becsült óra |
-| --- | ---- | --- |
-| Bogdán Patrik | @patyaa | 40-50 |
+| Név (Neptun kód) | Github azonosito  | Becsült óra |
+| ------ | ---- | --- |
+| Bogdán Patrik (ZXAAE3)| @patyaa | 40-50 |
 
 
 
